@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ความพิเศษ</title>
+</head>
+<body style="text-align:center; font-family:sans-serif; margin-top:100px;">
+  
+  <CENTER>เธอกดอันนี้ให้หน่อยสิ</CENTER>
+  <button id="enterBtn">เข้าเว็บไซต์</button>
+
+  
+
+<script>
+  let clicked = 0;
+ 
+ document.getElementById("enterBtn").onclick = function () {
+  if (clicked == 0) {
+    alert("กดอีกรอบสิ๊เจ้าอ้วน");
+    clicked++;
+  } else if (clicked == 1) {
+    alert("กดอีกนิดเดียวเอง");
+    clicked++;
+  } else if (clicked == 2) {
+    alert("กดอีกรอบเดียว");
+    clicked++;
+  } else {
+    prompt("")
+    
+  }
+ }
+ 
+</script>
+
+
+</body>
+</html>
